@@ -1,3 +1,4 @@
+/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -17,10 +18,22 @@ export default {
           700: '#7e22ce',
           800: '#6b21a8',
           900: '#581c87',
+        },
+        burgundy: {
+          50: '#fef1f4',
+          100: '#fce3e9',
+          200: '#f9c7d7',
+          300: '#f5a4be',
+          400: '#ed6a84',
+          500: '#e53e63',
+          600: '#d94675',
+          700: '#c93f63',
+          800: '#a32d4d',
+          900: '#7a1f37',
         }
       },
       fontFamily: {
-        sans: ['system-ui', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
       }
     },
   },
